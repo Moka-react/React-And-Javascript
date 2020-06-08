@@ -1,4 +1,3 @@
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ea0669c8-0991-425e-a4d9-8232f4dfa1e8/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ea0669c8-0991-425e-a4d9-8232f4dfa1e8/Untitled.png)
 
 # 스터디 소개 🤟
 
