@@ -1,1 +1,1 @@
-hello!
+https://velog.io/@jgam/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%98-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%9E%80
