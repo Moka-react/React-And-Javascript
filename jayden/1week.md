@@ -10,7 +10,9 @@
 
 ## prototype, constructor, **proto**
 
-생성자 함수가 있을때 new 키워드를 통해 인스턴스를 만들면 생성자 함수의 `prototype` 이라는 프로퍼티가 인스턴스에 `__proto__` 로 전달 된다. 즉 생성자 함수의 `prototype`과 인스턴스의 `__**proto__` 프로퍼티는 같은 객체를 참조한다.** `\_\_**proto\_\_`\*\* 는 내부 프로퍼티에 접근할때 생략이 가능하다.
+생성자 함수가 있을때 new 키워드를 통해 인스턴스를 만들면 생성자 함수의 `prototype` 이라는 프로퍼티가 인스턴스에 `__proto__` 로 전달 된다. 즉 생성자 함수의 `prototype`과 인스턴스의 `__proto__` 프로퍼티는 같은 객체를 참조한다. `__proto__` 는 내부 프로퍼티에 접근할때 생략이 가능하다.
+
+![prototype](https://user-images.githubusercontent.com/51406753/84573479-a2438b00-addb-11ea-9e67-7ec1a619563f.jpeg)
 
 # 메소드 상속 및 동작 원리
 
