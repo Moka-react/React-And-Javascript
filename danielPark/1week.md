@@ -1,9 +1,4 @@
-[##_Image|kage@b0ouWG/btqEPfxJXOC/T3qBTsFncWLESHOx9SMksK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="359" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
 
-> 본 글을 스터디 목적으로 작성한 글입니다 :-)  
-> [github.com/Moka-react/SharingStudy](https://github.com/Moka-react/SharingStudy)
-
----
 
 ### Preface
 
