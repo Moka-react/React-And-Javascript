@@ -73,5 +73,5 @@ Reducer 는 현재 State 와 Dispatch 로부터 받은 Action을 받아, 이후 
 Dispatch 에게는 Action을 넘길 수 있으며 useReducer의 reducer 가 처리된후 재 랜더링한다.
 
 참고
-https://www.daleseo.com/ 
+https://www.daleseo.com/ <br/>
 https://reactjs.org/docs/hooks-reference.html
