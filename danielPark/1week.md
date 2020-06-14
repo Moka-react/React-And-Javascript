@@ -276,6 +276,15 @@ f().catch(alert);
 
 ---
 
+### 다음주 계획
+
+**\- React Lifecycle 함수**
+
+React Framework를 알아가기 위해, Lifecycle을 이해하는게 중요하다고 생각해서 선정했습니다.
+
+
+---
+
 ### 참고 출처
 
 > MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async\_function  
