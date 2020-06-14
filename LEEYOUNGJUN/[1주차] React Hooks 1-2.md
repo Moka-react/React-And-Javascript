@@ -75,3 +75,8 @@ Dispatch 에게는 Action을 넘길 수 있으며 useReducer의 reducer 가 처�
 참고 <br/>
 https://www.daleseo.com/ <br/>
 https://reactjs.org/docs/hooks-reference.html
+
+# 다음주 주제 
+
+React 상태관리 (Context,Redux 등) 
+Hooks를 이용한 프로젝트 관리법
