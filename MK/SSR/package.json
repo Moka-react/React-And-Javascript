@@ -1,0 +1,30 @@
+{
+  "name": "SharingStudy",
+  "version": "1.0.0",
+  "description": "스터디 그룹을 결성하게 된 이유는 공부 목적의 사이드 프로젝트 진행을 위해서 입니다. 하지만 예상치 못한 여러 변수로  인해 잠시 보류중에 있어 온라인 스터디를 통해 공백을 채우기 위해 만들었습니다. 최고의 공부법은 배워서 남 줄 수 있는 공부라는 말이 있는데, 자기가 공부한 내용을 남에게 설명할 수 없으면 자기것이 아닙니다. 스터디를 통해서 함께 성장해봐요.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moka-react/SharingStudy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moka-react/SharingStudy/issues"
+  },
+  "homepage": "https://github.com/Moka-react/SharingStudy#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
