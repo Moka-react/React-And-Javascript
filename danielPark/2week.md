@@ -34,6 +34,8 @@
 라이프사이클 사진참고: https://daniel-park.tistory.com/38
                   https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
+
+
 #### **마운트**
 
 아래 메서드들은 컴포넌트의 인스턴스가 생성되어 DOM 상에 삽입될 때에 순서대로 호출된다.
@@ -135,6 +137,8 @@ componentDidUpdate(prevProps, prevState, snapshot) {
 
 ---
 
+
+
 #### ****마운트 해제****
 
 아래 메서드는 컴포넌트가 DOM 상에서 제거될 때에 호출된다.
@@ -218,6 +222,13 @@ class ErrorBoundary extends React.Component {
   }
 }
 ```
+---
+
+### 차주 공부 계획
+
+  - 이벤트 처리
+  
+  - Todo App
 
 ---
 
