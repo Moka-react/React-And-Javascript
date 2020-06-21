@@ -1,4 +1,4 @@
-[##_Image|kage@qhf50/btqE0lslS4U/CgfjMv8KnHc6m7dyYZpjEk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" width="596" height="NaN" data-ke-mobilestyle="widthContent"|||_##]
+
 
 ## 포스팅 계기
 
@@ -18,9 +18,21 @@
 
 이제는 현재 사용중인 Life cycle을 다이어그램을 통해 top-down 방식으로 보도록 해보자.
 
-**주황색 lifecycle**은 잘 사용하지 않는다.
+**다음 lifecycle**은 잘 사용하지 않는다.
 
-[##_Image|kage@dAPjTt/btqE13QX92u/AKxRAsfSDKQ6312l52hdTK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+ - getDerivedStateFromProps
+ 
+ - shouldComponentUpdate
+ 
+ - getSnapshotBeforeUpdate
+ 
+ - getDerivedStateFromError
+ 
+ - componentDidCatch
+
+
+라이프사이클 사진참고: https://daniel-park.tistory.com/38
+                  https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 #### **마운트**
 
@@ -70,7 +82,7 @@ props 또는 state가 변경되면 갱신이 발생한다. 아래 메서드들�
 
 \- getDerivedStateFromProps()
 
-**\- shouldComponentUpdate(nextProps, nextState)**
+**\-shouldComponentUpdate(nextProps, nextState)**
 
 -   props 또는 state가 새로운 값으로 갱신되어서 렌더링이 발생하기 직전 호출. (default: true)
 -   (nextProps, nextState), (this.props, this.state)의 비교를 통해 성능 최적화를 위해 사용할 수 있지만, JSON.stringify()를 통한 로직은 권장하지 않음. -> 성능 비효율
