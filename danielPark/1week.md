@@ -1,20 +1,18 @@
-
-
 ### Preface
 
- 흔히 생각하는 도큐먼트의 목적을 가진 정적인 문서에서, 다양한 요소들이 다이나믹하게 상호작용하는 지금까지, 모던 웹어플리케이션은 지난 몇 년 동안 큰 발전을 해왔습니다. 다이나믹한 웹의 끝판왕을 보여주는 듯한 [Apple](http://www.apple.com)의 웹사이트가 대표적인 예시입니다.
+흔히 생각하는 도큐먼트의 목적을 가진 정적인 문서에서, 다양한 요소들이 다이나믹하게 상호작용하는 지금까지, 모던 웹어플리케이션은 지난 몇 년 동안 큰 발전을 해왔습니다. 다이나믹한 웹의 끝판왕을 보여주는 듯한 [Apple](http://www.apple.com)의 웹사이트가 대표적인 예시입니다.
 
- 수요가 있으면 공급이 있듯이, 우리의 수요에 따라 Javascript도 발전을 이루어왔습니다. 비동기적인 요청을 위한 큰 흐름을 보자면 XMLHttpRequest부터 Ajax, Promise, fetch, async&await까지 선택지가 다양해졌습니다.
+수요가 있으면 공급이 있듯이, 우리의 수요에 따라 Javascript도 발전을 이루어왔습니다. 비동기적인 요청을 위한 큰 흐름을 보자면 XMLHttpRequest부터 Ajax, Promise, fetch, async&await까지 선택지가 다양해졌습니다.
 
- 주로 Promise로 코드를 짜오던 습관을 코드의 간결함과 가시성을 위해서 ES6의 Async&Await를 깊이 공부하고 사용하기로 했습니다.
+주로 Promise로 코드를 짜오던 습관을 코드의 간결함과 가시성을 위해서 ES6의 Async&Await를 깊이 공부하고 사용하기로 했습니다.
 
 ---
 
 ### Async & Await
 
- ES6에서 Async & Await을 지원하기 시작한 이 기능은 비동기적인 요청을 동기적인 코드로 보이도록 해 주고 코드를 간결해주는데 큰 역할을 하고 있다. Promise를 써본 이들은 잘 알겠지만, then(), catch() chain을 쓰다 보면, 작성하고 있는 코드가 잘 짜고 있는지 고뇌가 생기곤 한다.
+ES6에서 Async & Await을 지원하기 시작한 이 기능은 비동기적인 요청을 동기적인 코드로 보이도록 해 주고 코드를 간결해주는데 큰 역할을 하고 있다. Promise를 써본 이들은 잘 알겠지만, then(), catch() chain을 쓰다 보면, 작성하고 있는 코드가 잘 짜고 있는지 고뇌가 생기곤 한다.
 
- async & await 키워드는 비동기적이고, promise 기반 코드를 간결하고, Promise chain으로부터 벗어날 수 있게 해 준다. 이를 사용하기 위해서는 Async는 reserved word로 함수 선언에 prefix로 붙여줌으로써, 비동기적인 함수임을 나타낸다. 그리고 이 함수 블럭 내에서 비로소 await syntax를 사용할 수 있게 된다. (이외의 범위에서는 syntax error가 반겨줄 것이다.)
+async & await 키워드는 비동기적이고, promise 기반 코드를 간결하고, Promise chain으로부터 벗어날 수 있게 해 준다. 이를 사용하기 위해서는 Async는 reserved word로 함수 선언에 prefix로 붙여줌으로써, 비동기적인 함수임을 나타낸다. 그리고 이 함수 블럭 내에서 비로소 await syntax를 사용할 수 있게 된다. (이외의 범위에서는 syntax error가 반겨줄 것이다.)
 
 ```
 async function name([param[, param[, ...param]]]) {
@@ -24,17 +22,17 @@ async function name([param[, param[, ...param]]]) {
 
 **\- Parameters**
 
-  name: 함수 이름
+name: 함수 이름
 
-  param: 함수에 전달될 arguments들
+param: 함수에 전달될 arguments들
 
-  statements: 함수내의 로직 (주로 await를 이용한다.)
+statements: 함수내의 로직 (주로 await를 이용한다.)
 
 **\- Return value**
 
- async 함수의 결과 값인 Promise 객체를 리턴한다.
+async 함수의 결과 값인 Promise 객체를 리턴한다.
 
- 사실 이 부분이 중요하다. 아래에서 볼 수 있듯이, Async는 사실 Promise 객체에 value를 리턴한다. 따라서, async function의 값을 활용해야 한다면. hello().then((res) => ...)처럼 로직을 짜주어야 한다.
+사실 이 부분이 중요하다. 아래에서 볼 수 있듯이, Async는 사실 Promise 객체에 value를 리턴한다. 따라서, async function의 값을 활용해야 한다면. hello().then((res) => ...)처럼 로직을 짜주어야 한다.
 
 ```
 async function hello() {
@@ -69,15 +67,15 @@ asyncCall();
 
 ```
 
- resolveAfter2Seconds() 함수는 2초 후에 promise 객체에 'resolved'를 포함해서 리턴한다.
+resolveAfter2Seconds() 함수는 2초 후에 promise 객체에 'resolved'를 포함해서 리턴한다.
 
- asyncCall() 함수는
+asyncCall() 함수는
 
 1\. 'calling'을 console에 로그를 찍는다.
 
 2\. resolveAfter2Seconds 함수의 리턴 값을 기다린다.
 
-   \*\* 이 때, control을 잠시 양보하고, 비동기적인 함수인 resolveAfter2Seconds이 resolve() 또는 reject()이 되기를 기다렸다가 순서적으로 다시 진행하기 시작한다. 그러고 나서 Promise의 값을 받아온 후, result에 저장한다.
+\*\* 이 때, control을 잠시 양보하고, 비동기적인 함수인 resolveAfter2Seconds이 resolve() 또는 reject()이 되기를 기다렸다가 순서적으로 다시 진행하기 시작한다. 그러고 나서 Promise의 값을 받아온 후, result에 저장한다.
 
 3\. result의 값을  console에 로그를 찍는다.
 
@@ -160,15 +158,15 @@ setTimeout(parallel, 10000)
 
 **\- sequentialStart() 함수**
 
-  2. resolveAfter2Seconds() 함수 
+2. resolveAfter2Seconds() 함수
 
-    2초 동안 pause 후, Promise return 값을 받는다.
+2초 동안 pause 후, Promise return 값을 받는다.
 
-  3.  resolveAfter1Second() 함수
+3.  resolveAfter1Second() 함수
 
-    \*\* 과정 2를 끝내고서야, 위의 함수를 실행시키고 1초 pause 후, Promise return 값을 받는다.
+\*\* 과정 2를 끝내고서야, 위의 함수를 실행시키고 1초 pause 후, Promise return 값을 받는다.
 
-  함수명대로 await의 나열을 통해 sequential 하게 처리하고자 할 때, 사용할 수 있는 방법이다.
+함수명대로 await의 나열을 통해 sequential 하게 처리하고자 할 때, 사용할 수 있는 방법이다.
 
 ```
 starting slow promise
@@ -181,13 +179,13 @@ fast
 
 **\- concurrentStart() 함수**
 
-  1. 위에서 resolveAfter2Seconds(), resolveAfter1Second()를 동시에 실행됨.
+1. 위에서 resolveAfter2Seconds(), resolveAfter1Second()를 동시에 실행됨.
 
-  2. await이 걸린 상태이므로, resolveAfter2Seconds()의 2초 후 리턴 값을 console에 찍음.
+2. await이 걸린 상태이므로, resolveAfter2Seconds()의 2초 후 리턴 값을 console에 찍음.
 
-  3.await이 걸린 상태이고 함수는 1초 후에 값을 return 했지만, resolveAfter2Seconds의 await 영향으로 2초 기다리다가,  리턴 값을 console에 찍음.
+3.await이 걸린 상태이고 함수는 1초 후에 값을 return 했지만, resolveAfter2Seconds의 await 영향으로 2초 기다리다가,  리턴 값을 console에 찍음.
 
-   \*\* sequentialStart() 함수와는 다르게 동시에 함수를 call 하지만, 콘솔에 찍히는 값은 await으로 인해 2초 후에 동시에 찍힘.
+\*\* sequentialStart() 함수와는 다르게 동시에 함수를 call 하지만, 콘솔에 찍히는 값은 await으로 인해 2초 후에 동시에 찍힘.
 
 ```
 fast promise is done
@@ -198,11 +196,11 @@ fast
 
 **\- concurrentPromise() 함수**
 
-  concurrentStart()와 비교하면 재밌다.
+concurrentStart()와 비교하면 재밌다.
 
-  1. resolveAfter2Seconds(), resolveAfter1Second()를 Promise.all()에 담는다.
+1. resolveAfter2Seconds(), resolveAfter1Second()를 Promise.all()에 담는다.
 
-   \*\* [Promise.all()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)은 return 타이밍이 다른 각 비동기 함수들의 모든 요청의 결과 값을 하나로 모아준다. 즉, 비동기적인 요청을 동시에 실행하고, 리턴 값을 iterable로 내준다. 따라서, 미리 끝난 요청은 다른 요청이 끝날 때까지 기다려야 한다.
+\*\* [Promise.all()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)은 return 타이밍이 다른 각 비동기 함수들의 모든 요청의 결과 값을 하나로 모아준다. 즉, 비동기적인 요청을 동시에 실행하고, 리턴 값을 iterable로 내준다. 따라서, 미리 끝난 요청은 다른 요청이 끝날 때까지 기다려야 한다.
 
 fast promise is done  
 slow promise is done  
@@ -218,11 +216,11 @@ fast
 
 **\- parallel() 함수**
 
-  concurrentStart(), concurrentPromise()와는 다르게 병렬적으로 비동기적인 요청을 사용할 때의 방법이다.
+concurrentStart(), concurrentPromise()와는 다르게 병렬적으로 비동기적인 요청을 사용할 때의 방법이다.
 
-  1. resolveAfter2Seconds(), resolveAfter1Second()를 모두 console 찍는 것으로 병렬 task 요청한다.
+1. resolveAfter2Seconds(), resolveAfter1Second()를 모두 console 찍는 것으로 병렬 task 요청한다.
 
-    \*\* 콘솔에 resolveAfter1Second(), resolveAfter2Seconds()의 값이 아래처럼 찍히고 나서야, Promise.all이 처리한다.
+\*\* 콘솔에 resolveAfter1Second(), resolveAfter2Seconds()의 값이 아래처럼 찍히고 나서야, Promise.all이 처리한다.
 
 ```
 fast promise is done
@@ -281,7 +279,6 @@ f().catch(alert);
 **\- React Lifecycle 함수**
 
 React Framework를 알아가기 위해, Lifecycle을 이해하는게 중요하다고 생각해서 선정했습니다.
-
 
 ---
 
