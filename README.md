@@ -19,10 +19,10 @@
 
 ## 3️⃣ 스터디 주제
 
-- 1) TypeScript
-- 2) React 기초
-- 3) docker
-- 4) html, css, git
+- TypeScript(JavaScript 포함)
+- React 기초
+- docker
+- html, css, git
 
 ## 4️⃣ 궁금한점 또는 공유하고 싶은 내용
 
