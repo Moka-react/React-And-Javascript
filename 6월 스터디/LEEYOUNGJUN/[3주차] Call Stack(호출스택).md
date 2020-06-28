@@ -21,7 +21,7 @@ function printAddResult(x,y){
 
 printAddResult(10,100)
 ```
-
+```
 step 1
 
 printAddResult(10,100)
@@ -42,6 +42,7 @@ printAddResult(10,100)
 
 step 5 
 
+```
 
 
 설명)
