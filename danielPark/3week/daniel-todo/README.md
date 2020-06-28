@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Week3
 
-## Available Scripts
+3주차부터는 공부한 개념과 함께 실습을 진행하고자 합니다.
 
-In the project directory, you can run:
+### `이번 주, Todo App`
 
-### `npm start`
+[Create React App](https://github.com/facebook/create-react-app) boilerplate를 기반으로 코드를 작성하였습니다.<br />
+가벼운 prototype형 실습이였기에 Dev모드에서 진행하였습니다.
+[http://localhost:3000](http://localhost:3000)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 진행 방향
 
-### `npm test`
+클래스형보다는 저번주에 피드백 주신대로 함수형으로 코드를 작성하였습니다.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+아직은 리액트의 순련도가 부족하기 때문에, Todo-app을 수정하여 제조회사와 제품명을 CRUD할 수 있는 간단한 프로젝트입니다.
 
-### `npm run build`
+src/components 폴더에 자주 사용할 컴포넌트를, src/pages에 페이지가 될 파일을 저장하였습니다.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### 차주 계획
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Route 기능을 사용하기 위한 multi-page 실습 및 redux 개념.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 참고
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://velopert.com/3480
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+https://www.digitalocean.com/community/tutorials/how-to-build-a-react-to-do-app-with-react-hooks
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+https://github.com/facebook/create-react-app
