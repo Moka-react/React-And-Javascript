@@ -1,0 +1,68 @@
+# 개요
+
+> 이벤트 델리게이션 패턴은 매우 실용적으로 사용할 수 있는 디자인 패턴이다. 다른 어떠한 언어보다도 자바스크립트에서 가장 잘 활용되고 쉽게 구현할 수 있다. 이 패턴은 다수의 html 즉, DOM에 이벤트럴 걸어야 할 때, 그리고 활발한 이벤트 처리가 필요할 때 구성하면 좋다.
+
+# 모듈패턴을 학습하기 전 이벤트 버블링과 캡처링 되새기기
+
+버블링과 캡처링은 정반대로 동작한다.
+
+- 버블링 : 하위 DOM ⇒ 상위 DOM(bottom-up)
+- 캡처링 : 상위 DOM ⇒ 하위 DOM(top-down)
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c49a3124-1081-4483-9ac9-d405889990e0/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c49a3124-1081-4483-9ac9-d405889990e0/Untitled.png)
+
+## 이벤트 전달 세 단계
+
+자바스크립트 표준 문서에는 이벤트 전달의 세 단계인 [캡처링] ⇒ [대상] ⇒ [버블링]을 다음과 같이 정의한다.
+
+- 캡처링 단계 : 이벤트 객체가 window 객체로부터 대상의 부모까지 순서대로 전달되는 단계
+- 대상 단계 : 이벤트 객체가 이벤트 대상에 도달하는 단계로 이 단계에서 이벤트가 버블링 단계를 거치지 않는다고 명시하면, 이벤트 객체는 다음 단계를 생략한다.
+- 버블링 단계 : 이벤트 객체가 대상의 부모부터 window 객체까지 역순으로 전파된다.
+
+# 이벤트 델리게이션 간단한 예제
+
+```jsx
+<body>
+    <div id="app" class="wrapper">
+      <button class="btn">버튼</button>
+		</div>
+    <script>
+      const wrapper = document.getElementsByClassName("wrapper")[0];
+			const button = document.getElementsByClassName("btn")[0];
+			wrapper.addEventListener("click", function(e){
+				const target = e.target;
+				if(target.className && target.className ==='btn') {
+					wrapper.style.background = 'white'
+					button.style.background = 'black'
+					button.style.color = 'white'
+				} else if(target.className && target.className ==='wrapper') {
+					wrapper.style.background = 'black'
+					button.style.background = 'white'
+					button.style.color = 'black'
+				  }
+			});
+    </script>
+  </body>
+```
+
+### 초기화면
+
+![image](https://user-images.githubusercontent.com/51406753/85917704-6f979900-b897-11ea-85b9-e89734711715.png)
+
+### wrapper 클릭
+
+![image](https://user-images.githubusercontent.com/51406753/85917705-71615c80-b897-11ea-8021-1ada84c15969.png)
+
+### button 클릭
+
+![image](https://user-images.githubusercontent.com/51406753/85917708-732b2000-b897-11ea-9131-8cb1e7763d80.png)
+
+# 리액트에서 이벤트 델리게이션 적용?
+
+지금 내가 주로 사용하고 있는 리액트에서도 이벤트 델리게이션 패턴을 사용할까? 정답이라고 표현하기에는 애매하지만, 페이스북 진영의 답변을 찾았다.
+
+![image](https://user-images.githubusercontent.com/51406753/85917728-9bb31a00-b897-11ea-8490-07108420fd26.png)
+
+# 마무리
+
+사실 현재로써 크게 감탄할만큼 좋은지 모르겠지만, 알아야할 모든것중 하나로 그냥 이렇게 넘어간다.
