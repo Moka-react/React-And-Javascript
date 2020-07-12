@@ -12,9 +12,9 @@ Mobx 에서는 반응형 프로그래밍 패러다임에서
 
 또한 상태를 변경시키는 것도 직접해야한다.
 
-Mobx 은 상태를 Observable 하게 관리할 수 있도록 돕는 라이브러리이다.
+Mobx 은 객체지향 느낌이 강하며, 상태를 Observable 하게 관리할 수 있도록 돕는 라이브러리이다.
 
-(@)observable
+## 1.(@)observable
 
 observable은 넘겨받은 객체나 값 등을 Observable하게 만든다. 주로 객체를 넘기거나 클래스의 내부에서 데코레이터로 사용하게 된다.
 
@@ -41,17 +41,21 @@ setInterval(() => {
 });
 ```
 
-데코레이터 문법을 활용할 수 있다면 @observable 을 프로퍼티에 선언해줌으로써
-
-observable한 값으로 만들수있다
+데코레이터(어노테이션) 문법을 활용할 수 있다면 @observable 을 프로퍼티에 선언해줌으로써 observable한 값으로 만들수있다
 
 위 예제를 보면, 나이는 1초마다 업데이트 되지만 이름값은 업데이트 되지 않는 것을 알수있다.
+
+@observable 을 사용하게 되면 Mobx 에서 렌더링대상이 되는 state(상태,값) 를 관찰대상(observable value) 라고 칭하며, @observable 데코레이터(어노테이션)로 지정된 state 는 관찰대상으로 지정되고 그 state는 값이 변경될 때 마다 렌더링됩니다.
 
 @observable 을 사용하게 되면 프로퍼티를 읽거나 쓰는것이 모든 값을 관찰 하는 것과 연관된다.
 
 즉, person.age같은 코드로 값을 얻는 것은 옵저버를 등록하고, 실제로 그 값을 관찰(observe)하는 행위가 된다.
 
 반대로 person.age = 10같은 코드로 값을 할당하는 것은 그 값을 관찰하는 모든 옵저버들에게 통지(notify)하는 행위가 된다.
+
+2.Decorator
+
+데코레이터(java 애노테이션과 유사하다고 보면 된다)를 제공하기 때문에 Redux를 사용할 때 React Component와 state를 연결 하기위한 mapStateToProps, Redux action을 연결을 위한 mapDispatchToProps 그리고 bindActionCreators…. 등등의 보일러플레이트 코드가 사라지고 데코레이터가 처리하기 때문에 너무나도 깔끔한 코드가 생성됩니다
 
 **1.state**
 
@@ -60,6 +64,12 @@ observable한 값으로 만들수있다
 **3.Reaction**
 
 **4.Action**
+
+## **flows**
+
+`flow` 는 더 좋은 사용 방법이지만, 이것은 다른 문자를 추가로 사용해야합니다. 처음엔 어려워 보일 수 있지만 사실 `async` 나 `await`과 같은 원리입니다. 단지 `async` 나 `await`을 사용하는 대신에 `function *`을 사용하는 것 뿐입니다. `flow` 의 장점은 async / await과 문법적으로 매우 비슷하고, 비동기 작업이 필요한 부분에 수동으로 감싸지 않아도 된다는 것입니다. 결과적으로 매우 깨끗한 코드가 됩니다.
+
+`flow`는 오직 함수로만 사용할 수 있고, decorator로는 사용할 수 없습니다. 그리고 `flow`는 MobX 개발 도구와 깔끔하게 통합되어 있어서 비동기 작업의 과정을 쉽게 추적할 수 있습니다.
 
 # Observable
 
