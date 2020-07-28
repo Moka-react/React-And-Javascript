@@ -5,6 +5,8 @@
 
 ## 📁 자바스크립트
 * [객체지향 프로그래밍을 자바스크립트로 해보기 - 제이든](https://velog.io/@jayden/Object-Oriented-Programming-in-Javascript)
+* [모듈패턴 - 제이든](https://velog.io/@jayden/%EB%AA%A8%EB%93%88%ED%8C%A8%ED%84%B4)
+
 
 ## 📁 타입스크립트
 
