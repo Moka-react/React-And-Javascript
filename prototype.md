@@ -140,11 +140,9 @@ console.log(childObj.parentValue) // parent
 자바스크립트에서는 클래스가 아닌 객체를 직접 다른객체에 자식으로 만들 수 있다. 상속과 같은말이다. __ proto __ 는 매우 유연하기 때문에 의도하지 않은 변경이 일어날수도 있는 위험성이 있다. 
 
 # Object.create()
-
 앞서 살펴본 __ proto __ 는 표준에서 제외되었고, 권장하지 않는다고 했다. __ proto__의 대체가 Object.create() 이다. 
 
 ## Object.create() 사용해보기
-
 ```jsx
 let parentObj = {  parentValue : 'parent' };
 let childObj = Object.create(parentObj, {
