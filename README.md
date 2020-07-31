@@ -18,5 +18,5 @@
 
 ## 📁 리액트
 
-- [챕터1 리액트의 개요 1week - 신지연](https://github.com/jiyeon0320/REACT-StudyGroup/tree/master/Memo)
+- [리액트의 개요 1week - 신지연](https://github.com/jiyeon0320/REACT-StudyGroup/tree/master/Memo)
 - [Styled Component, 리액트 파일 구조, Slider 만들어보기]
