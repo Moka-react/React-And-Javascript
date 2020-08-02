@@ -27,4 +27,4 @@
 - [리액트의 개요 1week - 신지연](https://github.com/jiyeon0320/REACT-StudyGroup/tree/master/Memo)
 - [ZeroCho님 노드버드 강의를 들으며..-김승래](https://velog.io/@ksrlogic/%EC%A0%9C%EB%A1%9C%EC%B4%88%EB%8B%98-NodeBird-%EC%8B%9C%EC%9E%91CH-2-6)
 - [React useRef API -김승래](https://velog.io/@ksrlogic/React%EC%9D%98-useRef%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC)
-- [리액트 기초 정리](https://github.com/Kooding/react-study/tree/master/src)
+- [리액트 기초 정리 - Kooding](https://github.com/Kooding/react-study/tree/master/src)
