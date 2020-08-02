@@ -25,3 +25,4 @@
 ## 📁 리액트(문의 : `신지연`)
 
 - [리액트의 개요 1week - 신지연](https://github.com/jiyeon0320/REACT-StudyGroup/tree/master/Memo)
+- [ZeroCho님 노드버드 강의를 들으며..](https://velog.io/@ksrlogic/%EC%A0%9C%EB%A1%9C%EC%B4%88%EB%8B%98-NodeBird-%EC%8B%9C%EC%9E%91CH-2-6)
