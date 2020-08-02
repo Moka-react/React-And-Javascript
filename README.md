@@ -13,6 +13,7 @@
 - [모듈패턴 - 제이든](https://velog.io/@jayden/%EB%AA%A8%EB%93%88%ED%8C%A8%ED%84%B4)
 - [객체지향 in javascript? - jgam](https://medium.com/@jgam/oop-in-javascript-3d019e7b4196)
 - [FE 성능분석 - jgam](https://velog.io/@jgam/FE-%EC%84%B1%EB%8A%A5%EB%B6%84%EC%84%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0)
+- [redux에 대하여! -jgam](https://medium.com/@jgam/what-is-redux-3d9511b5c31)
 
 ## 📁 타입스크립트(문의 : `손티브`)
 
