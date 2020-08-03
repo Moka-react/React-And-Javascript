@@ -25,6 +25,7 @@
 - [타입스크립트 기본 타입 소개 - Doowan](https://velog.io/@kimdw1991/TypeScript%EC%9D%98-%EC%8B%9C%EC%9E%91)
 - [타입스크립트 기본 타입 소개2 - Doowan](https://velog.io/@kimdw1991/Typescript%EC%9D%98-type%EC%A0%95%EB%A6%AC%EC%99%80-%EC%82%AC%EC%9A%A9)
 - [타입스크립트 Enum - Doowan](https://velog.io/@kimdw1991/Typescriptenum-%ED%83%80%EC%9E%85)
+- [타입스크립트 기본 타입 - Joungsik](https://medium.com/@joungsik/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95-d3468c7b97a3)
 
 ## 📁 리액트(문의 : `신지연`)
 
