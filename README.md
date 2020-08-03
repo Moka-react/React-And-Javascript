@@ -19,9 +19,10 @@
 
 - [타입스크립트를 쓰는 이유와 기본 자료형 - Sonteve](https://github.com/Sonteve/StudyMarkdown/blob/master/typescript/1week.md)
 - [React프로젝트에 Typescript 및 Redux 적용 해보기 - Sonteve](https://github.com/Sonteve/StudyMarkdown/blob/master/typescript/2week.md)
+- [React프로젝트에 Typescript 및 Redux-saga 적용 해보기 - Sonteve](https://github.com/Sonteve/React-typescript-redux-saga/blob/master/README.md)
 - [타입스크립트 기본 타입 소개 - Doowan](https://velog.io/@kimdw1991/TypeScript%EC%9D%98-%EC%8B%9C%EC%9E%91)
 - [타입스크립트 기본 타입 소개2 - Doowan](https://velog.io/@kimdw1991/Typescript%EC%9D%98-type%EC%A0%95%EB%A6%AC%EC%99%80-%EC%82%AC%EC%9A%A9)
-- [타입스크립트 Enum - Doowan](https://velog.io/@kimdw1991/Typescriptenum-%ED%83%80%EC%9E%85) 
+- [타입스크립트 Enum - Doowan](https://velog.io/@kimdw1991/Typescriptenum-%ED%83%80%EC%9E%85)
 
 ## 📁 리액트(문의 : `신지연`)
 
