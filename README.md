@@ -37,4 +37,4 @@
 - [리액트 기초 정리 - Kooding](https://github.com/Kooding/react-study/tree/master/src)
 - [Do it! React 정리 - holasim](https://github.com/holasim91/React_Study_Group)
 - [리액트시작하기 - Noru96](https://github.com/Noru96/React-programming/blob/master/1.%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
-- [리액트 ES6 문법](https://github.com/Noru96/React-programming/blob/master/2.%EB%A6%AC%EC%95%A1%ED%8A%B8ES6%EB%AC%B8%EB%B2%95.md)
+- [리액트 ES6 문법 - Noru96](https://github.com/Noru96/React-programming/blob/master/2.%EB%A6%AC%EC%95%A1%ED%8A%B8ES6%EB%AC%B8%EB%B2%95.md)
