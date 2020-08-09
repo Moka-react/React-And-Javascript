@@ -16,6 +16,8 @@
 - [redux에 대하여! -jgam](https://medium.com/@jgam/what-is-redux-3d9511b5c31)
 - [prototype(1) - noName](https://blog.naver.com/thdwlgnsl/222049477756)
 - [객체 - noName](https://blog.naver.com/thdwlgnsl/222047401546)
+- [웹보안, XSS 공격이란? - Daniel](https://daniel-park.tistory.com/45)
+- [쓰로틀링, 디바운싱 - Daniel](https://daniel-park.tistory.com/43)
 
 ## 📁 타입스크립트(문의 : `손티브`)
 
