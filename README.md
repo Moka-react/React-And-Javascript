@@ -26,6 +26,7 @@
 - [React프로젝트에 Typescript 및 Redux-saga 적용 해보기 - Sonteve](https://github.com/Sonteve/React-typescript-redux-saga/blob/master/README.md)
 - [타입스크립트 기본 타입 소개 - Doowan](https://velog.io/@kimdw1991/TypeScript%EC%9D%98-%EC%8B%9C%EC%9E%91)
 - [타입스크립트 기본 타입 소개2 - Doowan](https://velog.io/@kimdw1991/Typescript%EC%9D%98-type%EC%A0%95%EB%A6%AC%EC%99%80-%EC%82%AC%EC%9A%A9)
+- [타입스크립트 인터페이스 - Doowan](https://developer-kevin.tistory.com/10)
 - [타입스크립트 Enum - Doowan](https://velog.io/@kimdw1991/Typescriptenum-%ED%83%80%EC%9E%85)
 - [타입스크립트 기본 타입 - JoungSik](https://medium.com/@joungsik/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95-d3468c7b97a3)
 - [인터페이스 및 제너릭 - 제이든](https://velog.io/@jayden/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%B0%8F-%EC%A0%9C%EB%84%88%EB%A6%AD)
