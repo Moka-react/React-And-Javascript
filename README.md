@@ -42,3 +42,4 @@
 - [리액트시작하기 - Noru96](https://github.com/Noru96/React-programming/blob/master/1.%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
 - [리액트 ES6 문법 - Noru96](https://github.com/Noru96/React-programming/blob/master/2.%EB%A6%AC%EC%95%A1%ED%8A%B8ES6%EB%AC%B8%EB%B2%95.md)
 - [리액트- hook(계속 하나씩 추가 중) - 신지연](https://github.com/jiyeon0320/REACT-STUDY/blob/master/Memo/03_Hooks.md)
+-[리액트 redux에 대해서...](https://velog.io/@ksrlogic/%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC-%EB%8F%84%EA%B5%AC-Redux)
