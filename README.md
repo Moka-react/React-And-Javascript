@@ -45,6 +45,7 @@
 - [리액트 redux에 대해서... - 김승래](https://velog.io/@ksrlogic/%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC-%EB%8F%84%EA%B5%AC-Redux)
 - [리액트- router - 신지연](https://github.com/jiyeon0320/REACT-STUDY/blob/master/Memo/05_router.md)
 - [리액트- router 튜토리얼 - 신지연](https://github.com/jiyeon0320/REACT-STUDY/tree/master/router-tutorial/src)
+- [Bootstrap 공부 - 김동주](https://github.com/coshua/WEB/blob/master/bootstrap/bootstrap.md)
 
 ## 📁 리액트(문의 : `박동휘`)
 - [리덕스 기초](https://github.com/donghwipark/foundation_of_redux/blob/master/redux.html)
