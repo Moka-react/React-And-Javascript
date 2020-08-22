@@ -46,7 +46,5 @@
 - [리액트- router - 신지연](https://github.com/jiyeon0320/REACT-STUDY/blob/master/Memo/05_router.md)
 - [리액트- router 튜토리얼 - 신지연](https://github.com/jiyeon0320/REACT-STUDY/tree/master/router-tutorial/src)
 - [Bootstrap 공부 - 김동주](https://github.com/coshua/WEB/blob/master/bootstrap/bootstrap.md)
-
-## 📁 리액트(문의 : `박동휘`)
 - [리덕스 기초](https://github.com/donghwipark/foundation_of_redux/blob/master/redux.html)
 - [CSS 모듈이란 무엇이고 왜 쓰는걸까요? className 사용법](https://eastlead.org/post/5f3be992eddc110e9b0c9ae2)
