@@ -48,3 +48,5 @@
 - [Bootstrap 공부 - 김동주](https://github.com/coshua/WEB/blob/master/bootstrap/bootstrap.md)
 - [리덕스 기초](https://github.com/donghwipark/foundation_of_redux/blob/master/redux.html)
 - [CSS 모듈이란 무엇이고 왜 쓰는걸까요? className 사용법](https://eastlead.org/post/5f3be992eddc110e9b0c9ae2)
+- [Authentication, Json Web Token - 김동주](https://github.com/coshua/WEB/blob/master/Authentication/JWT%20(Json%20Web%20Token).md)
+- [리덕스 middleware와 thunk - 김동주](https://github.com/coshua/WEB/blob/master/react/redux/middleware/(1)%20thunk.md)
