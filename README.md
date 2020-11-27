@@ -6,7 +6,7 @@
 
 ## 📢 참여희망시 오픈톡방에서 해당 주제의 리더를 호출해주세요~
 
-## 📁 자바스크립트(문의 : `할랄` 또는 `정한`)
+## 📁 자바스크립트
 
 - [객체지향 프로그래밍을 자바스크립트로 해보기 - 제이든](https://velog.io/@jayden/Object-Oriented-Programming-in-Javascript)
 - [디자인패턴(1) - 제이든](https://github.com/DevJayden/JavaScript-DesignPattern/blob/master/2%EC%9E%A5%20%EC%BD%94%EB%93%9C%EA%B5%AC%EC%84%B1.md)
@@ -19,7 +19,7 @@
 - [웹보안, XSS 공격이란? - Daniel](https://daniel-park.tistory.com/45)
 - [쓰로틀링, 디바운싱 - Daniel](https://daniel-park.tistory.com/43)
 
-## 📁 타입스크립트(문의 : `손티브`)
+## 📁 타입스크립트
 
 - [타입스크립트를 쓰는 이유와 기본 자료형 - Sonteve](https://github.com/Sonteve/StudyMarkdown/blob/master/typescript/1week.md)
 - [React프로젝트에 Typescript 및 Redux 적용 해보기 - Sonteve](https://github.com/Sonteve/StudyMarkdown/blob/master/typescript/2week.md)
@@ -32,7 +32,7 @@
 - [인터페이스 및 제너릭 - 제이든](https://velog.io/@jayden/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%B0%8F-%EC%A0%9C%EB%84%88%EB%A6%AD)
 - [인터페이스, 클래스, Express - JoungSik](https://medium.com/@joungsik/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-express-49aacd92e1b1)
 
-## 📁 리액트(문의 : `신지연`)
+## 📁 리액트
 
 - [리액트의 개요 1week - 신지연](https://github.com/jiyeon0320/REACT-StudyGroup/tree/master/Memo)
 - [ZeroCho님 노드버드 강의를 들으며..-김승래](https://velog.io/@ksrlogic/%EC%A0%9C%EB%A1%9C%EC%B4%88%EB%8B%98-NodeBird-%EC%8B%9C%EC%9E%91CH-2-6)
