@@ -45,7 +45,4 @@
 - [CSS 모듈이란 무엇이고 왜 쓰는걸까요? className 사용법](https://eastlead.org/post/5f3be992eddc110e9b0c9ae2)
 
 
-# QnA
-## 📁 JavaScript
 
-## 📁 React
