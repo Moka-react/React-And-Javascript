@@ -1,8 +1,5 @@
-## 📢 공유방법
-
-- 자신이 공부해서 작성한 블로그 해당글을 `README.md` 에 추가 후 Pull Request
-
-## 📢 참여희망시 오픈톡방에서 해당 주제의 리더를 호출해주세요~
+#  TIL
+여러분이 공부한 내용을 공유해주세요~
 
 ## 📁 자바스크립트
 
@@ -30,7 +27,7 @@
 - [인터페이스 및 제너릭 - 제이든](https://velog.io/@jayden/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%B0%8F-%EC%A0%9C%EB%84%88%EB%A6%AD)
 - [인터페이스, 클래스, Express - JoungSik](https://medium.com/@joungsik/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-express-49aacd92e1b1)
 
-## 📁 리액트
+## 📁 React
 
 - [리액트의 개요 1week - 신지연](https://github.com/jiyeon0320/REACT-StudyGroup/tree/master/Memo)
 - [ZeroCho님 노드버드 강의를 들으며..-김승래](https://velog.io/@ksrlogic/%EC%A0%9C%EB%A1%9C%EC%B4%88%EB%8B%98-NodeBird-%EC%8B%9C%EC%9E%91CH-2-6)
@@ -46,3 +43,9 @@
 - [Bootstrap 공부 - 김동주](https://github.com/coshua/WEB/blob/master/bootstrap/bootstrap.md)
 - [리덕스 기초](https://github.com/donghwipark/foundation_of_redux/blob/master/redux.html)
 - [CSS 모듈이란 무엇이고 왜 쓰는걸까요? className 사용법](https://eastlead.org/post/5f3be992eddc110e9b0c9ae2)
+
+
+# QnA
+## 📁 JavaScript
+
+## 📁 React
