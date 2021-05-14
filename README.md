@@ -1,5 +1,3 @@
-# 📖 Blog List
-
 ## 📢 공유방법
 
 - 자신이 공부해서 작성한 블로그 해당글을 `README.md` 에 추가 후 Pull Request
